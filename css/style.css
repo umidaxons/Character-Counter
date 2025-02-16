@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 *:focus {
-  outline: 1px dotted #7296ec;
+  outline: 2px solid rgba(194, 124, 248, 1);
   border-radius: 10px;
   padding: 13px 20px;
 }
@@ -69,7 +69,9 @@ h1 {
   font-size: 24px;
   line-height: 32px;
 }
-
+.header__img {
+  display: none;
+}
 /* HEADER END */
 /* HERO START */
 
@@ -90,11 +92,6 @@ h1 {
   margin-bottom: 48px;
 }
 .description__wrapper {
-  background-color: rgba(242, 242, 247, 1);
-  border: 2px solid rgba(228, 228, 239, 1);
-  padding: 20px 20px 94px 20px;
-  border-radius: 8px;
-  margin-bottom: 16px;
 }
 
 .services__button {
@@ -123,6 +120,32 @@ h1 {
   line-height: 21px;
   color: rgba(18, 19, 26, 1);
 }
+
+.description__wrapper {
+  background-color: rgba(242, 242, 247, 1);
+  border: 2px solid rgba(228, 228, 239, 1);
+  border-radius: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+  max-width: 990px;
+}
+.description {
+  width: 100%;
+  max-width: 990px;
+
+  border: none;
+  padding: 20px 20px 152px 20px;
+}
+.services__button {
+}
+.input {
+}
+.input__wrap {
+}
+.services__subtitle {
+}
+.services__button__left {
+}
 /* SERVICES END */
 /* IMeges start */
 
@@ -131,7 +154,12 @@ h1 {
   justify-content: space-between;
   margin-bottom: 24px;
 }
-
+.img__tablet {
+  display: none;
+}
+.img__mobile {
+  display: none;
+}
 /* IMAGES END */
 /* STATISTIKA START */
 .statistika__container {
@@ -199,7 +227,25 @@ body.dark-mode {
   color: #ffffff;
   background-image: none;
 }
-
+body.dark-mode.header {
+  background-color: #000000;
+  color: #ffffff;
+}
+body.dark-mode .description__wrapper {
+  background-color: rgba(33, 34, 44, 1);
+  border: 2px solid rgba(42, 43, 55, 1);
+}
+body.dark-mode .description {
+  color: rgba(228, 228, 239, 1);
+  background-color: rgba(33, 34, 44, 1);
+  border: 2px solid rgba(42, 43, 55, 1);
+}
+body.dark-mode .header__root__img {
+  display: none;
+}
+body.dark-mode .header__img {
+  display: inline-block;
+}
 body.dark-mode a,
 body.dark-mode p,
 body.dark-mode h1,
@@ -211,19 +257,5 @@ body.dark-mode h6,
 body.dark-mode span {
   color: #ffffff;
 }
-body.dark-mode.header {
-  background-color: #000000;
-  color: #ffffff;
-}
-body.dark-mode.description__wrapper {
-  background-color: rgba(33, 34, 44, 1);
-  border: 2px solid rgba(42, 43, 55, 1);
-}
-body.dark-mode.description {
-  color: rgba(228, 228, 239, 1);
-  background-color: rgba(33, 34, 44, 1);
-  border: 2px solid rgba(42, 43, 55, 1);
-}
-body.dark-mode.header__root__img {
-  display: none;
-}
+
+/* dark end */
