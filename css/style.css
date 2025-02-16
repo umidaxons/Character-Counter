@@ -1,0 +1,229 @@
+@import url(./font.css);
+@import url(./root.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 1px dotted #7296ec;
+  border-radius: 10px;
+  padding: 13px 20px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+img {
+  display: flex;
+  object-fit: cover;
+}
+main {
+  flex-grow: 1;
+}
+body {
+  background-image: url(../img/BG\ Noise.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgba(42, 43, 55, 1);
+}
+.container {
+  width: 100%;
+  max-width: 1100px;
+  padding: 32px 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  margin: 0;
+}
+/* HEADER START */
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.header__icon__wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header__icon__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+/* HEADER END */
+/* HERO START */
+
+.hero__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  color: rgba(18, 19, 26, 1);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+}
+/* HERO END */
+/* SERVICES START */
+
+.services__container {
+  margin-bottom: 48px;
+}
+.description__wrapper {
+  background-color: rgba(242, 242, 247, 1);
+  border: 2px solid rgba(228, 228, 239, 1);
+  padding: 20px 20px 94px 20px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.services__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.input__wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.services__subtitle {
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(18, 19, 26, 1);
+}
+.services__button__left {
+  display: flex;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(18, 19, 26, 1);
+}
+/* SERVICES END */
+/* IMeges start */
+
+.images__container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+/* IMAGES END */
+/* STATISTIKA START */
+.statistika__container {
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.statistika__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(18, 19, 26, 1);
+  margin-bottom: 20px;
+}
+
+.statistika__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.statistika__right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.statistika__right__title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+}
+.statistika__progress {
+  width: 859px;
+  height: 12px;
+  background-color: #e0e0e0;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+}
+
+.statistika__progress-fill {
+  height: 100%;
+
+  background-color: #b266ff;
+  border-radius: 6px;
+}
+.statistika__bottom {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+/* STATISTIKA END */
+/* dark */
+body.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+  background-image: none;
+}
+
+body.dark-mode a,
+body.dark-mode p,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode span {
+  color: #ffffff;
+}
+body.dark-mode.header {
+  background-color: #000000;
+  color: #ffffff;
+}
+body.dark-mode.description__wrapper {
+  background-color: rgba(33, 34, 44, 1);
+  border: 2px solid rgba(42, 43, 55, 1);
+}
+body.dark-mode.description {
+  color: rgba(228, 228, 239, 1);
+  background-color: rgba(33, 34, 44, 1);
+  border: 2px solid rgba(42, 43, 55, 1);
+}
+body.dark-mode.header__root__img {
+  display: none;
+}
