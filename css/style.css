@@ -307,12 +307,7 @@ body.dark-mode span {
   .statistika__progress {
     width: 212px;
   }
-  .header {
-  }
-  .container {
-  }
-  .header__container {
-  }
+
   .header__icon__wrap {
     display: flex;
     gap: 9px;
@@ -329,81 +324,24 @@ body.dark-mode span {
   .header__icon__img_mobil {
     display: block;
   }
-  .header__root {
-  }
-  .header__root__img {
-  }
-  .header__img {
-  }
-  .main {
-  }
-  .hero {
-  }
-  .hero__container {
-  }
+
   .hero__title {
     font-weight: 700;
     width: 343px;
     font-size: 40px;
     line-height: 40px;
   }
-  .services {
-  }
-  .services__container {
-  }
-  .description__wrapper {
-  }
-  .description {
-  }
+
   .services__button {
     display: block;
   }
   .input {
     display: block;
   }
-  .input__wrap {
-  }
-  .services__subtitle {
-  }
-  .services__button__left {
-  }
-  .images {
-  }
+
   .images__container {
     display: flex;
     gap: 16px;
     flex-direction: column;
-  }
-  .image {
-  }
-  .img__tablet {
-  }
-  .img__mobile {
-  }
-  .statistika {
-  }
-  .statistika__container {
-  }
-  .statistika__title {
-  }
-  .statistika__wrap {
-  }
-  .statistika__right {
-  }
-  .statistika__right__title {
-  }
-  .statistika__progress {
-  }
-  .statistika__progress-fill {
-  }
-  .statistika__left {
-  }
-  .pratsent {
-  }
-  .statistika__bottom {
-  }
-  .statistika__description {
-  }
-  .title {
   }
 }

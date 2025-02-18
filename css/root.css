@@ -1,0 +1,50 @@
+/* Neutral Colors */
+:root {
+  --neutral-900: #12131a;
+  --neutral-800: #21222c;
+  --neutral-700: #2a2b37;
+  --neutral-600: #404254;
+  --neutral-500: #e4e4ef;
+  --neutral-400: #f2f2f7;
+  --neutral-0: #ffffff;
+
+  /* Purple Colors */
+  --blue-400: #d3a0fa;
+  --blue-500: #c27cf8;
+
+  /* Yellow Colors */
+  --yellow-500: #ff9f00;
+
+  /* Orange Colors */
+  --orange-500: #fe8159;
+  --orange-800: #fe8159;
+}
+:root {
+  --font-primary: 'DM Sans', sans-serif;
+
+  /* Text Preset 1 - Bold */
+  --text-1-size: 64px;
+  --text-1-line-height: 100%;
+  --text-1-letter-spacing: -1px;
+  --text-1-weight: 700; /* Bold */
+
+  /* Text Preset 1 (Mobile) - Bold */
+  --text-1-mobile-size: 40px;
+
+  /* Text Preset 2 - SemiBold */
+  --text-2-size: 24px;
+  --text-2-line-height: 130%;
+  --text-2-letter-spacing: -1px;
+  --text-2-weight: 600; /* SemiBold */
+
+  /* Text Preset 3 - Regular */
+  --text-3-size: 20px;
+  --text-3-line-height: 130%;
+  --text-3-letter-spacing: -0.6px;
+  --text-3-weight: 400; /* Regular */
+
+  /* Text Preset 4 - Regular */
+  --text-4-size: 16px;
+  --text-4-line-height: 130%;
+  --text-4-letter-spacing: -0.6px;
+}
